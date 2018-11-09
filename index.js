@@ -47,7 +47,7 @@ function draw() {
         rect(food.x, food.y, 10, 10);
     } else {
         food.status = true;
-        food.x = (Math.random() * (larghezza -20) + 20);
+        food.x = (Math.random() * larghezza);
         food.y = (Math.random() * (altezza - (screen.height - window.innerHeight + (20)) + screen.height - window.innerHeight + (20)));
     }
     fill(255, 0, 0);
